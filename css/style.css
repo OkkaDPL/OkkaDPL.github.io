@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    background-image: url('/img/bg.jpg');
+    background-position: -300px;
+    background-size: cover;
+    width: 400px;
+    height: 100vh;
+}
+/* Header Section Start */
+header {
+    padding: 50px 50px 20px 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;;
+}
+header > img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgba(0, 0, 0, .6);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: skyblue;
+}
+
+header > p {
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+}
+
+header > .title {
+    font-size: 20px;
+    padding: 0;
+}
+/* End Header Section */
+
+/* Link Section Start*/
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link > a{
+    border: 0px solid white;
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: 900;
+    line-height: 50px;
+    box-shadow: skyblue 0px 0px 7px 1px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.link>a:hover {
+    border: 1px solid white;
+    color: salmon;
+}
+
+
+
+.link > a>.gitHub {
+    background-image: url('/img/gitHub.png');
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.link > a>.portfolio {
+    background-image: url('/img/portfolio.png');
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.link > a>.instagram {
+    background-image: url('/img/instagram.png');
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+/* End Link Section */
